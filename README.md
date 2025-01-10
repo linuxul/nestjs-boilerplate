@@ -71,3 +71,6 @@ Belongs to the [bc boilerplates](https://bcboilerplates.com/) ecosystem
 ## Support
 
 If you seek consulting, support, or wish to collaborate, please contact us via [boilerplates@brocoders.com](mailto:boilerplates@brocoders.com). For any inquiries regarding boilerplates, feel free to ask on [GitHub Discussions](https://github.com/brocoders/nestjs-boilerplate/discussions) or [Discord](https://discord.com/channels/520622812742811698/1197293125434093701).
+
+
+# jsseo.kr@gmail.com 에서 role id -> 1 로 설정 후 업데이트
