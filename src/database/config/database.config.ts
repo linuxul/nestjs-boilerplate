@@ -90,8 +90,8 @@ export default registerAs<DatabaseConfig>('database', () => {
     maxConnections: process.env.DATABASE_MAX_CONNECTIONS
       ? parseInt(process.env.DATABASE_MAX_CONNECTIONS, 10)
       : 100,
-    sslEnabled: process.env.DATABASE_SSL_ENABLED === 'true',
-    rejectUnauthorized: process.env.DATABASE_REJECT_UNAUTHORIZED === 'true',
+    sslEnabled: process.env.DATABASE_SSL_ENABLED === 'false',
+    rejectUnauthorized: process.env.DATABASE_REJECT_UNAUTHORIZED === 'false',
     ca: process.env.DATABASE_CA,
     key: process.env.DATABASE_KEY,
     cert: process.env.DATABASE_CERT,

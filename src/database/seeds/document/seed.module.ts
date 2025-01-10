@@ -8,8 +8,11 @@ import appConfig from '../../../config/app.config';
 import databaseConfig from '../../config/database.config';
 import { MongooseConfigService } from '../../mongoose-config.service';
 
+import { unnamedSeedModule } from './unnamed/unnamed-seed.module';
+
 @Module({
   imports: [
+    unnamedSeedModule,
     UserSeedModule,
     ConfigModule.forRoot({
       isGlobal: true,
